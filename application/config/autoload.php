@@ -53,7 +53,14 @@
 | 7. Models
 |
 */
-
+/*
+| -------------------------------------------------------------------
+|  Auto-load Sparks
+| -------------------------------------------------------------------
+|
+|
+*/
+$autoload['sparks'] = array('ci_alerts/1.1.7');
 /*
 | -------------------------------------------------------------------
 |  Auto-load Packages
@@ -79,7 +86,7 @@ $autoload['packages'] = array();
 |	$autoload['libraries'] = array('database', 'email', 'xmlrpc');
 */
 
-$autoload['libraries'] = array('doctrine');
+$autoload['libraries'] = array('doctrine','github_updater');
 
 
 /*
