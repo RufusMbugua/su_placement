@@ -47,10 +47,11 @@ class Welcome extends CI_Controller {
 	{
 $success = $this->github_updater->has_update();
 if($success==true){
-$this->github_updater->update();
+//$this->github_updater->update();
 }
-
-		$this->load->view('welcome_message');
+$data['title']='Home';
+$data['contentView']='index';
+		$this->load->view('template',$data);
 	}
 }
 

@@ -60,7 +60,7 @@
 |
 |
 */
-$autoload['sparks'] = array('ci_alerts/1.1.7');
+$autoload['sparks'] = array('ci_alerts/1.1.7','github_updater/1.0.1');
 /*
 | -------------------------------------------------------------------
 |  Auto-load Packages

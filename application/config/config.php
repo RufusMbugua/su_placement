@@ -39,7 +39,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	=  'http://'.$_SERVER['SERVER_NAME'].'/codeigniter/';
+$config['base_url']	=  'http://'.$_SERVER['SERVER_NAME'].'/su_placement/';
 
 /*
 |--------------------------------------------------------------------------
