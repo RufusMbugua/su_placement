@@ -15,7 +15,7 @@ footer,#footer{
 height:22%;
 }
 
-.content,#content{
+.content,#content,#nav-header{
 width:1050px;
 margin:auto;
 }
