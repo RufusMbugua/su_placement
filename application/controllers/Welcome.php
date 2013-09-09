@@ -43,16 +43,56 @@ class Welcome extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
-	public function index()
-	{
-$success = $this->github_updater->has_update();
-if($success==true){
-//$this->github_updater->update();
-}
-$data['title']='Home';
-$data['contentView']='index';
-		$this->load->view('template',$data);
+	public function index() {
+		//$success = $this->github_updater->has_update();
+		//if($success==true){
+		//$this->github_updater->update();
+		//}
+		$data['title'] = 'Home';
+		$data['contentView'] = 'index';
+		$this -> load -> view('template', $data);
 	}
+
+	public function about() {
+		//$success = $this->github_updater->has_update();
+		//if($success==true){
+		//$this->github_updater->update();
+		//}
+		$data['title'] = 'About Us';
+		$data['contentView'] = 'about';
+		$this -> load -> view('template', $data);
+	}
+
+	public function contact() {
+		//$success = $this->github_updater->has_update();
+		//if($success==true){
+		//$this->github_updater->update();
+		//}
+		$data['title'] = 'Contact Us';
+		$data['contentView'] = 'contactus';
+		$this -> load -> view('template', $data);
+	}
+
+	public function student() {
+		//$success = $this->github_updater->has_update();
+		//if($success==true){
+		//$this->github_updater->update();
+		//}
+		$data['title'] = 'Student';
+		$data['contentView'] = 'student';
+		$this -> load -> view('template', $data);
+	}
+	
+		public function employer() {
+		//$success = $this->github_updater->has_update();
+		//if($success==true){
+		//$this->github_updater->update();
+		//}
+		$data['title'] = 'Employer';
+		$data['contentView'] = 'employer';
+		$this -> load -> view('template', $data);
+	}
+
 }
 
 /* End of file welcome.php */
