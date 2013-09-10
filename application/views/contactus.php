@@ -22,15 +22,16 @@
 		<br>
 		Telephone: Ext 2216
 	</p>
-	<strong>Email: </strong><a href="mailto:careers@strathmore.edu">careers@strathmore.edu</a>
+	<strong>Email: </strong><a href="mailto:careerservices@strathmore.edu">careerservices@strathmore.edu</a>
 	<br>
 	<strong>Website:</strong><a href="http://www.strathmore.edu/cds/">www.strathmore.edu/cds</a>
 	<br>
 	<br>
 
 </div>
-<form id="contacts-form" name="contacts-form" action="get_mail.php">
-	<h3>Contact <span>Form</span><em>(* all fields are required) </em></h3>
+<h3>Contact <span>Form</span><em>(* all fields are required) </em></h3>
+<form id="contacts-form" name="contacts-form" action="get_mail.php" class='well'>
+	
 	<fieldset>
 		<div class="field">
 			<label> <span class="style1">Your Name:</span></label>
@@ -61,7 +62,7 @@
 			<!-- End of captcha -->
 
 		</div>
-		<input type="submit" class="button" value="Send Message" />
-		<input type="reset" value="Cancel" />
+		<input type="submit" class="button btn" value="Send Message" />
+		<input type="reset" value="Cancel" class="btn"/>
 	</fieldset>
 </form>

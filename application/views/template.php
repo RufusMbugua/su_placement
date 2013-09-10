@@ -44,7 +44,7 @@ $this -> load -> view($contentView);
 <div id="footer">
    		<div class="aligncenter">Strathmore University Ole Sangale Rd, Madaraka Estate, P.O.Box 59857-00200, Nairobi, Kenya
         <br>
-      	<strong>Tel.</strong>: +254 (0) 703 034000/ +254 (0) 703 034 216 &nbsp;<strong>Email:</strong> <a href="mailto:careers@strathmore.edu">careers@strathmore.edu</a>&nbsp;<strong>Website:</strong> <a href="http://www.strathmore.edu" target="_blank">www.strathmore.edu</a></div>
+      	<strong>Tel.</strong>: +254 (0) 703 034000/ +254 (0) 703 034 216 &nbsp;<strong>Email:</strong> <a href="mailto:careerservices@strathmore.edu">careerservices@strathmore.edu</a>&nbsp;<strong>Website:</strong> <a href="http://www.strathmore.edu" target="_blank">www.strathmore.edu</a></div>
     
 
 </div>
